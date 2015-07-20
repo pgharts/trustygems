@@ -7,8 +7,8 @@ namespace :gem do
   task :deploy do
     config = YAML.load_file("config/trustygems.yml")
     spec = Gem::Specification::load(config["gemspec"])
-    puts "gem build #{config["gemspec"]}"
-    puts "#{config["deploy_command"]} #{spec.name}-#{spec.version}.gem"
+    sh "gem build #{config["gemspec"]}"
+    sh "#{config["deploy_command"]} #{spec.name}-#{spec.version}.gem"
   end
 
 
