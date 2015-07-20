@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Eric Sipple"]
   s.email       = ["sipple@trustarts.org"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/pgharts/trustygems"
   s.summary     = %q{Standaridizing gem deploy commands, regardless of destination.}
   s.description = %q{Standaridizing gem deploy commands, regardless of destination.}
 
