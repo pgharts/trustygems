@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    trustygems (0.0.1)
+    trustygems (0.0.6)
       rake
 
 GEM
