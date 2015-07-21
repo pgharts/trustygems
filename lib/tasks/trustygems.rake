@@ -1,7 +1,7 @@
 require "rubygems"
 require "yaml"
 
-namespace :gem do
+namespace :trustygems do
 
   desc "Build and deploy the gem to the appropriate place"
   task :deploy do
